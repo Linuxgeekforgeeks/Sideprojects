@@ -1,0 +1,14 @@
+.trips{
+    padding: 4rem;
+}
+.filter {
+    margin-top:2rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.filter button{
+    padding: .3rem 2rem;
+    border-radius: .4rem;
+    
+}

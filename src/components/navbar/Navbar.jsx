@@ -4,6 +4,7 @@ function Navbar() {
   const NavLinks = [
     { id: 1, title: "Home", link: "/" },
     { id: 2, title: "Cooking", link: "/cooking" },
+    { id: 3, title: "Trips", link: "/trips" },
   ];
   return (
     <div className="navbar">

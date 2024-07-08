@@ -1,20 +1,24 @@
 {
-    "trips":[
-        {
-            "title":"2 Night to Stay in the Vacine",
-            "price":"$123"
-        },
-        {
-            "title":"3 Night to Stay in the Paris",
-            "price":"$163"
-        },
-        {
-            "title":"5 Night Stay in the UK",
-            "price":"$1003"
-        },
-        {
-            "title":"2 Night Stay in the Canada",
-            "price":"$173"
-        }
-    ]
+  "trips": [
+    {
+      "title": "2 Night to Stay in the Vacine",
+      "price": "$123",
+      "Location": "Europe"
+    },
+    {
+      "title": "3 Night to Stay in the Paris",
+      "price": "$163",
+      "Location": "Europe"
+    },
+    {
+      "title": "5 Night Stay in the UK",
+      "price": "$1003",
+      "Location": "American"
+    },
+    {
+      "title": "2 Night Stay in the Canada",
+      "price": "$173",
+      "Location": "American"
+    }
+  ]
 }
