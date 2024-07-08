@@ -1,13 +1,18 @@
-import "./App.css"
-import CommentSytem1 from './pages/CommentsSystem1/CommentSytem1'
-
-
+import React from 'react'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import Navbar from './components/navbar/Navbar'
+import Cooking from './pages/cookingNinja/Cooking'
 function App() {
   return (
-    <div className='app'>
-      
-      <CommentSytem1/>
-    </div>
+    <>
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+      <Route index element={<h1>This is the home page</h1>}/>
+      <Route path='/cooking' element={<Cooking/>}/>
+    </Routes>
+    </BrowserRouter>
+    </>
   )
 }
 
