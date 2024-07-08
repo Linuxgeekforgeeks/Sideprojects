@@ -1,5 +1,5 @@
 import "./Navbar.css";
-
+import { NavLink } from "react-router-dom";
 function Navbar() {
   const NavLinks = [
     { id: 1, title: "Home", link: "/" },
@@ -88,7 +88,7 @@ function Navbar() {
           <div className="links">
             {NavLinks.map((navItem, index) => (
               <>
-                <a href={navItem.link}>{navItem.title}</a>
+                <NavLink to={navItem.link}>{navItem.title}</NavLink>
               </>
             ))}
           </div>
